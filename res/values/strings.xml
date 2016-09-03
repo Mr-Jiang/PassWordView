@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PassWordView</string>
+    <string name="login">登录</string>
+
+    <color name="main_top_title_color">#5677fc</color>
+
+    <string name="rmt_account_hint">请输入手机号</string>
+    <string name="rmt_password_hint">请输入密码</string>
+    <string name="rmt_now_login">立即登录</string>
+    <string name="rmt_register">立即注册</string>
+    <string name="rmt_forget_password">忘记密码</string>
+    <string name="rmt_author">Author：Engineer-Jsp</string>
+
+</resources>

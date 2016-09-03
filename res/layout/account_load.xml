@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0eff5"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/main_top_title_color"
+        android:text="@string/rmt_author"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <com.example.passwordview.PassWordView
+        xmlns:rmt_custom_edittext_view="http://schemas.android.com/apk/res/com.example.passwordview"
+        android:id="@+id/rmt_custom_edittext_account"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/login_title"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_big_normal"
+        android:drawableLeft="@drawable/rmt_account_img"
+        android:hint="@string/rmt_account_hint"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textSize="15sp"
+        rmt_custom_edittext_view:rmt_custom_edittext_type="0" />
+
+    <com.example.passwordview.PassWordView
+        xmlns:rmt_custom_edittext_view="http://schemas.android.com/apk/res/com.example.passwordview"
+        android:id="@+id/rmt_custom_edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/rmt_custom_edittext_account"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_big_normal"
+        android:drawableLeft="@drawable/rmt_password_img"
+        android:hint="@string/rmt_password_hint"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textSize="15sp"
+        rmt_custom_edittext_view:rmt_custom_edittext_type="1" />
+
+    <Button
+        android:id="@+id/rmt_now_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/rmt_custom_edittext_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/main_top_title_color"
+        android:text="@string/rmt_now_login"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/rmt_now_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/rmt_now_login_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/rmt_register"
+        android:textColor="@color/main_top_title_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rmt_forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/rmt_now_login_btn"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/rmt_forget_password"
+        android:textColor="@color/main_top_title_color"
+        android:textSize="20sp" />
+
+</RelativeLayout>
