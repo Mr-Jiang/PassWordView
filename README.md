@@ -1,5 +1,5 @@
 # PassWordView
-Engineer-Jsp：PassWordView
+# Engineer-Jsp：PassWordView
 ![image](https://github.com/Mr-Jiang/PassWordView/blob/master/PassWordView/PassWordView.gif)
 
 # Usage
@@ -23,5 +23,5 @@ Engineer-Jsp：PassWordView
         
 
 # Properties
-rmt_custom_edittext_view:rmt_custom_edittext_type 0 deleted edittext 1 password edittext
+rmt_custom_edittext_view:rmt_custom_edittext_type( 0 deleted edittext 1 password edittext)
 
